@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap");
+$white: #fff;
+$dark: #070724;
+$dark-grey: #38384f;
+$light-grey: #838391;
+//
+$turcoaz: #1ec2a4;
+$light-blue: #419ebb;
+$dark-blue: #2d68f0;
+
+$yellow: #eda249;
+$purple: #6f2ed6;
+//
+$red: #d83a34;
+$dark-orange: #d14c32;
+$light-orange: #cd5120;
+//Typografy
+$font-antonio: "Antonio", sans-serif;
+$font-spartan: "Spartan", sans-serif;
+
+$xs-text: 1.1rem;
+$s-text: 1.2rem;
+$m-text: 1.4rem;
+$m-text: 4rem;
+$l-text: 8rem;
+
+$line-height: 2.55rem;
+
+.heading-xsmall {
+  font-family: $font-spartan;
+  font-weight: 700;
+  font-size: $xs-text;
+  line-height: $line-height;
+  letter-spacing: 0.1rem;
+}
+.heading-small {
+  font-family: $font-spartan;
+  font-weight: 700;
+  font-size: $s-text;
+}
+.heading-medium {
+  font-family: $font-antonio;
+  font-size: $m-text;
+  line-height: 2 * $line-height;
+}
+.heading-xl {
+  font-family: $font-antonio;
+  font-size: $l-text;
+  line-height: 4 * $line-height;
+}
+.text-normal {
+  font-size: $m-text;
+  line-height: $line-height;
+}
